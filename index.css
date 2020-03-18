@@ -1,0 +1,36 @@
+#contaner {
+    width: 606px;
+    height: 606px;
+    border: 1px solid #cccccc;
+    margin: 40px auto;
+}
+
+#contaner div {
+    width: 200px;
+    height: 200px;
+    background: #09f;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 200px;
+    float: left;
+    border: 1px solid #cccccc;
+}
+
+#contaner #five {
+    transition: all 0.5s ease-in-out 0s;
+}
+
+#contaner #five:hover {
+    cursor: pointer;
+    font-size: 25px;
+    transform: scale(1.2) rotate(360deg);
+    background: #fff;
+    color: #09f;
+}
+
+.ys {
+    transform: scale(1.2);
+    box-shadow: 0 0 0 200px red inset;
+}
